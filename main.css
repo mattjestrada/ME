@@ -35,7 +35,7 @@ body {
 
 #Intro {
     background: linear-gradient(#0666b4, transparent 95%, #2e2b26),
-    url("/assets/images/motherboard.jpg") no-repeat center;
+    url("/ME/assets/images/motherboard.jpg") no-repeat center;
     background-size: cover;
     position: inherit;
     text-align: center;
@@ -61,7 +61,7 @@ body {
 
 #About{
     background: linear-gradient(#2e2b26, transparent 10%, #A5A5A5 150%),
-    url("/assets/images/power-outage.jpg") no-repeat center;
+    url("/ME/assets/images/power-outage.jpg") no-repeat center;
     background-size: cover;
     height: auto;
     min-height: 100vh;
@@ -135,7 +135,8 @@ body {
 }
 
 #Footer {
-    background: linear-gradient(black, transparent),url("/assets/images/motherboard.jpg");
+    background: linear-gradient(black, transparent),
+    url("/ME/assets/images/motherboard.jpg");
     background-position: center;
     color: white;
     height: 20vh;
